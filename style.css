@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "perkalian-1 perkalian-1 perkalian-2 perkalian-2 perkalian-3 perkalian-3 perkalian-4 perkalian-4 perkalian-5 perkalian-5"
+    "perkalian-6 perkalian-6 perkalian-7 perkalian-7 perkalian-8 perkalian-8 perkalian-9 perkalian-9 perkalian-9 perkalian-9";    
+    gap: 1px;
+}
+
+.content {
+    margin: 1%;
+    justify-content: center;
+}
+
+.perkalian-1 {
+    background-color: aqua;
+    grid-area: perkalian-1;
+}
+
+.perkalian-2 {
+    background-color: aquamarine;
+    grid-area: perkalian-2;
+}
+
+.perkalian-3 {
+    background-color: lightskyblue;
+    grid-area: perkalian-3;
+}
+
+.perkalian-4 {
+    background-color: lightseagreen;
+    grid-area: perkalian-4;
+}
+
+.perkalian-5 {
+    background-color: lightblue;
+    grid-area: perkalian-5;
+}
+
+.perkalian-6 {
+    background-color: lightgreen;
+    grid-area: perkalian-6;
+}
+
+.perkalian-7 {
+    background-color: mediumspringgreen;
+    grid-area: perkalian-7;
+}
+
+.perkalian-8 {
+    background-color: mediumseagreen;
+    grid-area: perkalian-8;
+}
+
+.perkalian-9 {
+    background-color: mediumaquamarine;
+    grid-area: perkalian-9;
+}
